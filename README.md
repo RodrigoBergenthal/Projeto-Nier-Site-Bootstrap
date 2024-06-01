@@ -28,5 +28,5 @@ Este é o README para o projeto do site do Anime Nier Automata. Este site foi de
 Para inserir imagens no site, siga o seguinte modelo:
 
 ```html
-![Descrição da Imagem](https://github.com/RodrigoBergenthal/Projeto-Nier-Site-Bootstrap/raw/main/readme1.png)
+!https://github.com/RodrigoBergenthal/Projeto-Nier-Site-Bootstrap/raw/main/readme1.png
 
