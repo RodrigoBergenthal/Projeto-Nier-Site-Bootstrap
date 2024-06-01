@@ -29,3 +29,4 @@ Para inserir imagens no site, siga o seguinte modelo:
 
 ```html
 <img src="readme1.png" class="img-fluid">
+<img src="https://github.com/RodrigoBergenthal/Projeto-Nier-Site-Bootstrap/blob/main/readme1.png" alt="Descrição da Imagem" class="img-fluid">
