@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Exercício 13</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #ea8a1c;
+            /* Definindo a cor de fundo */
+        }
+
+        .card-img-overlay {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .navbar-nav .nav-link.active {
+            color: #fff;
+        }
+
+        .nav-link {
+            text-align: center;
+        }
+        header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: #ffff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NavBar-->
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Anime Nier Automata</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#historia"> História</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#personagens"> Personagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#plataformas"> Plataformas </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato"> Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button id="btn-checar-emails" type="button" class="btn btn-warning">Mensagem para o Tutor</button>
+            </div>
+        </div>
+    </header>
+    <!--Carousel-->
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="2000" class="carousel-item active">
+                    <img class="d-block w-100"
+                        src="https://www.pockettactics.com/wp-content/sites/pockettactics/2022/09/nier-automata-anime.jpeg" />
+                    <div class="carousel-caption">
+                        <h2>Foto do Anime Nier 2b</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://techraptor.net/sites/default/files/styles/image_header/public/2023-01/NieR%20Automata%20Anime%20A2.jpg?itok=YB-r-0pA" />
+                    <div class="carousel-caption">
+                        <h2>Foto do Anime Nier A2</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100" src="https://wallpapercave.com/wp/wp7763112.jpg" />
+                    <div class="carousel-caption">
+                        <h2>Foto do Anime Nier 2b Poster</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <!-- Final do Carousel-->
+    <!--Cards-->
+    <h1>Jogos da Série</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Drakengard
+                    </div>
+                    <img src="https://th.bing.com/th/id/OIP.2lZlqWDIzt6SZtsxiT3EgwHaEK?rs=1&pid=ImgDetMain"
+                        class="card-img-top" />
+                    <div class="card-body">
+                        <h4 class="card-title">Drakengard 1,2 e 3</h4>
+                        <h5 class="subtitle">Plataforma Playstation</h5>
+                        <p class="card-text">Drakengard é uma série de jogos de ação e RPG, centrada em alianças entre
+                            humanos e dragões. O primeiro jogo segue Caim e o dragão vermelho Angelus em uma guerra. O
+                            segundo, Nowe e seu dragão Legna enfrentam rebeldes. O terceiro prequela.
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia Mais...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Nier Replicant:
+                    </div>
+                    <img src="https://th.bing.com/th/id/OIP.ncf4qDmnC3xvV_qv19bPOAHaEK?rs=1&pid=ImgDetMain"
+                        class="card-img-top" />
+                    <div class="card-body">
+                        <h4 class="card-title">Nier Replicant:</h4>
+                        <h5 class="subtitle">PC e Consoles</h5>
+                        <p class="card-text">NieR Replicant é um RPG de ação que segue o jovem protagonista, Nier, em
+                            uma jornada para salvar sua irmã Yonah de uma doença mortal. A história se aprofunda em
+                            temas de sacrifício e desespero, com a ajuda de personagens únicos como o livro mágico
+                            Grimoire Weiss e o guerreiro Kaine.
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia Mais...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Nier Automata:
+                    </div>
+                    <img src="https://th.bing.com/th/id/R.4c3ef66b9d847bf28baf7df93e027999?rik=SXaBxvHsD5HSVA&pid=ImgRaw&r=0"
+                        class="card-img-top" />
+                    <div class="card-body">
+                        <h4 class="card-title">Nier Automata:</h4>
+                        <h5 class="subtitle">PC e Consoles</h5>
+                        <p class="card-text">NieR: Automata é um RPG de ação que segue os andróides 2B, 9S e A2 em uma
+                            guerra entre máquinas e formas de vida mecânicas para recuperar a Terra para a humanidade. O
+                            jogo explora temas de existencialismo, consciência e a natureza do livre arbítrio, com
+                            múltiplos finais e um enredo profundo.
+                        </p>
+                        <a href="#" class="btn btn-primary">Botão Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Final do Cards-->
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="historia">
+            <h2>História</h2>
+            <p>O anime "NieR: Automata Ver1.1a" adapta o aclamado jogo "NieR: Automata" e segue os andróides de combate
+                2B e 9S, que fazem parte da unidade militar YoRHa, criada para lutar contra as formas de vida mecânicas
+                que invadiram a Terra. A história se passa em um futuro distópico onde a humanidade foi forçada a fugir
+                para a Lua após a invasão das máquinas. Os andróides são enviados para recuperar o planeta e proteger os
+                interesses humanos.
+
+                Enquanto 2B e 9S enfrentam as ameaças das máquinas, eles começam a questionar a natureza de suas
+                missões, suas próprias existências e o propósito de sua luta. A narrativa do anime explora temas
+                profundos como a identidade, a consciência e a essência do que significa ser humano, ampliando a
+                complexidade e a profundidade emocional presentes no jogo original. Ao longo da série, o público é
+                levado a refletir sobre a moralidade da guerra, a natureza da alma e as relações entre máquinas e
+                humanos em um cenário pós-apocalíptico.</p>
+            <p>No primeiro episódio do anime "NieR: Automata Ver1.1a", somos apresentados ao futuro distópico onde a
+                Terra foi dominada por formas de vida mecânicas criadas por uma raça alienígena. A humanidade foi
+                forçada a se refugiar na Lua, deixando os andróides YoRHa para lutar em seu lugar.
+
+                O episódio começa com os andróides de combate 2B e 9S sendo enviados em uma missão para destruir uma
+                grande fábrica de máquinas que serve como base inimiga. Durante a missão, 2B exibe suas habilidades de
+                combate impressionantes, enquanto 9S fornece suporte tático e coleta informações.
+
+                Ao avançarem, 2B e 9S enfrentam vários tipos de inimigos mecânicos, demonstrando a brutalidade e a
+                dificuldade da guerra. Eles eventualmente encontram um Goliath, uma enorme unidade de batalha mecânica,
+                e precisam trabalhar juntos para derrotá-lo. A batalha é intensa e cheia de ação, destacando a
+                determinação e a resiliência dos andróides.
+
+                Após a destruição do Goliath, 2B e 9S descobrem que a base inimiga é muito mais complexa e perigosa do
+                que inicialmente previsto. Eles se deparam com uma nova ameaça, levando a um confronto que termina em
+                uma explosão massiva. O episódio conclui com um toque de mistério, sugerindo que as verdadeiras
+                intenções das máquinas e a natureza da guerra são mais profundas do que os andróides imaginam.</p>
+            <p>No segundo episódio do anime "NieR: Automata," a trama continua a seguir os androides de combate 2B e 9S
+                enquanto eles exploram as ruínas da Terra, que agora está devastada e habitada por máquinas hostis.
+                Durante sua missão, eles encontram um grupo de androides desertores que formaram uma sociedade pacífica,
+                questionando sua própria existência e o propósito de sua luta.
+
+                Enquanto 2B permanece cautelosa, 9S se aproxima dos desertores, interessado em entender suas
+                perspectivas e motivações. No entanto, a aparente calmaria é interrompida quando uma horda de máquinas
+                ataca o acampamento dos desertores. 2B e 9S lutam para proteger os refugiados, mas são forçados a
+                confrontar a brutalidade da guerra e os sacrifícios necessários para sobreviver.
+
+                Ao longo do episódio, questões sobre identidade, moralidade e o significado da vida emergem, refletindo
+                os temas centrais explorados no jogo "NieR: Automata". O episódio termina com os androides continuando
+                sua jornada, confrontados com dilemas cada vez mais complexos enquanto lutam para encontrar um propósito
+                em um mundo pós-apocalíptico.</p>
+        </section>
+        <!--Personagens -->
+        <section id="personagens">
+            <h2>Personagens</h2>
+            <div class="container">
+                <nav class="nav nav-pills">
+                    <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">
+                        2B</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">
+                        9S</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">
+                        A2</button>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="aba1">
+                        <img src="https://www.wallpaperflare.com/static/89/844/895/anime-nier-automata-2b-nier-automata-nier-wallpaper.jpg"
+                            style="width: 300px;" />
+                        <h3>2B</h3>
+                        <p>2B é uma protagonista central em "NieR: Automata", uma androide de combate altamente
+                            habilidosa
+                            e dedicada à missão. Ela é parte de uma linha de androides criados para combater as máquinas
+                            alienígenas que invadiram a Terra. 2B é conhecida por sua personalidade calma e reservada,
+                            contrastando com sua habilidade excepcional em batalha.
+                            Apesar de sua natureza aparentemente fria e imperturbável, 2B guarda uma profunda
+                            complexidade
+                            emocional e questionamentos sobre sua própria existência. Ao longo da história, ela é
+                            confrontada com dilemas morais e conflitos internos, especialmente quando confrontada com as
+                            implicações de suas próprias ações e as consequências da guerra entre androides e máquinas.
+                            2B é caracterizada por seu forte senso de dever e lealdade à organização YoRHa, mas também
+                            demonstra empatia e compaixão em relação aos outros personagens, especialmente seu
+                            companheiro
+                            androide 9S. Sua jornada é marcada por descobertas surpreendentes sobre o mundo ao seu
+                            redor,
+                            bem como sobre sua própria identidade e propósito. Ao longo do tempo, ela desenvolve um arco
+                            de
+                            personagem rico e complexo, explorando temas de humanidade, liberdade e redenção.</p>
+                    </div>
+                    <div class="tab-pane" id="aba2">
+                        <img src="https://i.pinimg.com/originals/c2/8e/e4/c28ee42e88d610544d6ace52c54c14de.png"
+                            style="width: 300px; height: 174px;" />
+                        <h3>9S</h3>
+                        <p>9S é outro personagem principal em "NieR: Automata", um androide de suporte altamente
+                            inteligente e habilidoso. Ele faz parte da mesma unidade militar YoRHa que 2B e é designado
+                            para missões de reconhecimento e suporte tático.
+                            Ao contrário de 2B, que é mais reservada, 9S tem uma personalidade mais curiosa e emotiva.
+                            Ele é bastante interessado em entender a natureza das máquinas inimigas e muitas vezes
+                            questiona as ordens que recebe. Sua habilidade em hackear e acessar informações
+                            confidenciais é crucial para o sucesso das missões.
+                            Ao longo da história, 9S desenvolve um vínculo próximo com 2B, e sua relação se torna um dos
+                            pontos centrais da narrativa. Ele também enfrenta desafios pessoais e éticos,
+                            confrontando-se com questões sobre a natureza da consciência e a moralidade da guerra entre
+                            androides e máquinas.
+                            No decorrer do jogo, a jornada de 9S é marcada por descobertas chocantes e reviravoltas
+                            emocionantes, levando-o a confrontar sua própria identidade e propósito. Sua perspectiva
+                            única e habilidades únicas desempenham um papel crucial na resolução dos mistérios do enredo
+                            e na progressão da história.</p>
+                    </div>
+                    <div class="tab-pane" id="aba3">
+                        <img src="https://th.bing.com/th/id/R.aa0006f6a9b4c476da93f17dd9affea5?rik=M%2bKWAawWA%2bZYXw&pid=ImgRaw&r=0"
+                            style="width: 300px; height: 174px;" />
+                        <h3>A2</h3>
+                        <p>
+                            A2 é um personagem importante em "NieR: Automata", introduzido mais tarde na história como
+                            uma androide de combate renegada. Inicialmente, ela é retratada como uma figura misteriosa e
+                            enigmática, cujas verdadeiras intenções não estão claras.
+                            Ao longo da narrativa, descobrimos que A2 fazia parte da mesma unidade YoRHa que 2B e 9S,
+                            mas desertou por razões desconhecidas. Ela tem uma abordagem mais solitária e áspera em
+                            comparação com os outros personagens, muitas vezes preferindo trabalhar sozinha.
+                            A2 é habilidosa em combate e possui uma força considerável, mas sua personalidade é marcada
+                            por uma profunda melancolia e um passado doloroso. Ela carrega o fardo de memórias
+                            traumáticas e segredos obscuros que influenciam suas ações e escolhas ao longo da história.
+                            Embora inicialmente seja retratada como uma antagonista, A2 gradualmente se torna uma figura
+                            mais complexa à medida que sua história é revelada. Sua jornada é marcada por redenção,
+                            autoconhecimento e a busca por um propósito em um mundo devastado pela guerra e pela
+                            desolação.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Final do Personagens -->
+        <!-- Plataformas -->
+        <section id="plataformas">
+            <h2>PLATAFORMAS</h2>
+            <img src="https://static.vecteezy.com/system/resources/previews/020/336/203/original/xbox-logo-xbox-icon-free-free-vector.jpg"
+                style="width: 350px; height: 350px;" />
+            <img src="https://wonderfulengineering.com/wp-content/uploads/2020/06/00.-PlayStation-5-Reveal-Event-Was-Delayed-For-This-Reason.jpg"
+                style="width: 350px; height: 350px;" />
+            <img src="https://th.bing.com/th/id/OIP.91vjs84nSE2Z1Wc-zvvWoAHaEK?w=1200&h=675&rs=1&pid=ImgDetMain"
+                style="width: 350px; height: 350px;" />
+            <img src="https://pixelz.cc/wp-content/uploads/2018/07/steam-logo-uhd-4k-wallpaper.jpg"
+                style="width: 350px; height: 350px;" />
+            <!-- Final das Plataformas -->
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <!--Cards contato-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                        <div class="card text-bg-light">
+                            <div class="card-header">
+                                Siga no GitHub
+                            </div>
+                            <img src="https://avatars.githubusercontent.com/u/116042656?v=4" class="card-img-top" />
+                            <div class="card-body">
+                                <h4 class="card-title">GitHub</h4>
+                                <p><a href="https://github.com/RodrigoBergenthal">Me acompanhe no Github</a>
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia Mais...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Final do Cards contato-->
+        </section>
+    </div>
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div data-bs-autohide="false" class="toast" id="mensagens-alerta">
+            <header class="toast-header">
+                <strong>Importante</strong>
+            </header>
+            <div class="toast-body">
+                Muito obrigado pelo Suporte de sempre! Vocês fazem parte de uma grande realização pessoal! obrigado!
+                <div class="mt-2 pt-2 border-top">
+                    <button data-bs-dismiss="toast" class="btn btn-danger">
+                        Descartar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <!--Final Navbar-->
+    <footer>
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exemplo-modal">
+            Abrir Modal
+        </button>
+        <div class="modal" id="exemplo-modal" data-bs-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>Seja Bem vindo ao Exercício Módulo 13</h5>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Exercício do Módulo 13 foi executado no dia 01 de junho de 2024. Foram usadas técnicas
+                            aprendidas em todo o módulo! Espero que gostem. Por Rodrigo Bergenthal
+                        </p>
+                    </div>
+                    <dir class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" type="button"
+                            class="btn-close"> Cancelar</button>
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal" type="button"
+                            class="btn-close"> Confirmar</button>
+                    </dir>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div style="text-align: center;">
+                <p>&copy; EBAC Módulo 11 - Todos os direitos reservados - 2024.</p>
+                <small>Desenvolvido por Rodrigo Bergenthal</small>
+            </div>
+        </div>
+    </footer>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script>
+        const ativadorToast = document.getElementById("btn-checar-emails")
+        const mensagem = document.getElementById("mensagens-alerta")
+        if (ativadorToast) {
+            ativadorToast.addEventListener('click', function () {
+                const toast = new bootstrap.Toast(mensagem)
+                toast.show()
+            });
+        };
+        document.addEventListener('DOMContentLoaded', function () {
+            const modalExemplo = new bootstrap.Modal('#exemplo-modal');
+            setTimeout(function () {
+                modalExemplo.show();
+            }, 3000);
+        });
+    </script>
+</body>
+
+</html>"
