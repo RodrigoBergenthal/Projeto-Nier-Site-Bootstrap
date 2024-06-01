@@ -1,4 +1,5 @@
 # Site do Projeto Anime Nier Automata
+projeto publicado em: https://projeto-nier-site-bootstrap.vercel.app/
 
 Este é o README para o projeto do site do Anime Nier Automata. Este site foi desenvolvido como parte de um exercício prático para demonstrar habilidades em desenvolvimento web, utilizando diversas tecnologias.
 
